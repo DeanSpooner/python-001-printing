@@ -170,3 +170,29 @@ This could be used in more creative ways such as:
     print(name)
 
 This will print one of the names at random.
+
+## input(prompt)
+
+This provides some kind of prompt for the user to give an input. The input can be stored in a variable to be used later.
+
+For example:
+
+    userName = input("What is your name?")
+
+    print("Hello, " + name + "!")
+
+If I were to answer with _Dean_ for the input, the printed message would be:
+
+    Hello, Dean!
+
+## len(string)
+
+This function measures the length of a string and returns an integer.
+
+For example:
+
+    len("Dean")
+
+    4
+
+Bear in mind, an **integer** and **not a string** is returned!
